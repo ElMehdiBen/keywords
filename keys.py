@@ -8,7 +8,7 @@ from keybert import KeyBERT
 elastic = Elasticsearch(['http://206.81.23.137:9200'])
 
 def pre_process(text):
-    
+    # XYZ
     # lowercase
     text=text.lower()
     
